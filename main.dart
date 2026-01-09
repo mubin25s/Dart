@@ -3,7 +3,7 @@ void main() {
   print('🚀 Welcome to the Dart World!');
   print('====================================');
 
-  final programmer = Programmer(name: 'Antigravity', language: 'Dart');
+  final programmer = Programmer(name: 'VS Code', language: 'Dart');
   programmer.introduce();
 
   print('------------------------------------');
