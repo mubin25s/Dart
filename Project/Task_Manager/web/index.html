@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - Web Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📋 Task Manager</h1>
+            <p class="subtitle">View your tasks in a beautiful interface</p>
+        </header>
+
+        <div class="stats-container" id="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalTasks">0</div>
+                <div class="stat-label">Total Tasks</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="completedTasks">0</div>
+                <div class="stat-label">Completed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="pendingTasks">0</div>
+                <div class="stat-label">Pending</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="highPriorityTasks">0</div>
+                <div class="stat-label">High Priority</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" onclick="loadTasks()">🔄 Refresh Tasks</button>
+            <select id="filterSelect" onchange="filterTasks()">
+                <option value="all">All Tasks</option>
+                <option value="pending">Pending Only</option>
+                <option value="completed">Completed Only</option>
+                <option value="high">High Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="low">Low Priority</option>
+            </select>
+        </div>
+
+        <div class="tasks-container" id="tasksContainer">
+            <div class="empty-state">
+                <p>📭 No tasks found</p>
+                <p class="hint">Run the CLI application to add tasks, then click Refresh</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

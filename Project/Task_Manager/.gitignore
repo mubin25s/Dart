@@ -1,0 +1,22 @@
+# Dart specific
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Task data (optional - remove this line if you want to commit tasks)
+tasks.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

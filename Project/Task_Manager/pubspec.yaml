@@ -1,0 +1,11 @@
+name: task_manager
+description: A simple task management CLI application
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  # No external dependencies for this simple project
+  
+dev_dependencies:
+  lints: ^2.0.0
