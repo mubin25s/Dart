@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 void main() {
   greet('Antigravity');
   
@@ -15,7 +14,7 @@ void greet(String name) {
   print('Hello, $name! Welcome to Dart functions.');
 }
 
-// Function with return type
+// Function with return type  
 int add(int a, int b) {
   return a + b;
 }

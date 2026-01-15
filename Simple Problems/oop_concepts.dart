@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 void main() {
   var myDog = Dog('Buddy', 'Golden Retriever');
   myDog.makeSound();

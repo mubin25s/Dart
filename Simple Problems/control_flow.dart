@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 void main() {
   int temperature = 25;
 

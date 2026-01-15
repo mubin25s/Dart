@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 void main() {
   // Integers and Doubles
   int age = 25;
