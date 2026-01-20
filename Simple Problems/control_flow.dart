@@ -7,7 +7,8 @@ void main() {
   } else if (temperature > 20) {
     print("It's a pleasant day. 🌤️");
   } else {
-    print("It's a col
+    print("It's a cold day. ❄️");
+  }
 
   // For Loop
   print('\nCounting to 5:');
