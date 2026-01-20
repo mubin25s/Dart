@@ -55,4 +55,3 @@ void describePerson({required String name, int? age}) {
 
 // Arrow function syntax for simple expressions
 int calculateSquare(int n) => n * n;
->>>>>>> 636d077d90e1125fefef891e0330dd428dcfd309
