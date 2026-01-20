@@ -4,7 +4,9 @@ void main() {
   int sum = add(10, 20);
   print('Sum: $sum');
 
-  describePerson(name: 'Alice', 
+  describePerson(name: 'Alice', age: 30);
+  
+  print('Square of 5: ${calculateSquare(5)}');
 }
 
 // Basic function
