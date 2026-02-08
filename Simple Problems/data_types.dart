@@ -9,7 +9,7 @@ void main() {
   // Booleans
   bool isCoding = true;
 
-  
+  // Lists (Arrays)
   List<String> technologies = ['Dart', 'Flutter', 'Firebase'];
 
   // Maps (Key-Value pairs)
