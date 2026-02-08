@@ -16,8 +16,7 @@ void greet(String name) {
 
 // Function with return type  
 int add(int a, int b) {
-  return a + b;
-}
+  
 
 // Function with named parameters
 void describePerson({required String name, int? age}) {
