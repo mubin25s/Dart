@@ -18,7 +18,7 @@ void main() {
 }
 
 int calculateFactorial(int n) {
-  if (n <= 1) return 1;
+  if (n <= 1) retu
   return n * calculateFactorial(n - 1);
 }
 
